@@ -2,10 +2,11 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Footer from "./components/Comman/Footer";
-import AppRouter from "./Router/AppRouter";
+
 import Navbar from "./components/Comman/Navbar";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import ChatWidget from "./components/Comman/ChatBox";
+import AppRouter from "./Pages/Router/AppRouter";
 
 function App() {
   return (

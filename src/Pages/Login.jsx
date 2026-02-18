@@ -1,7 +1,7 @@
 import React from "react";
 import Login from "../components/Login/Login";
 
-export default function Home() {
+export default function HomeLogin() {
   return (
     <>
       <Login />
