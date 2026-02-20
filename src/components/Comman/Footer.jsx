@@ -60,7 +60,7 @@ const Footer = () => {
             <div className="relative">
               <div className="relative">
                 <img
-                  src="/src/assets/Img/Group53.png"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGlSURBVHgB1dprCoJAFIbhscS9uMpslSLuREXzC76w8jKXc3TmhSD89yClM2eMUa5t20dRFA+TckA0TTPleT4liyECn/v9PmVZpoq5GYWAGMexWl6bpsn0fV9pYcQhawimiRGF7CGYFkYMYoNgGhgRiAuCSWOCIT4IJokJgoQgmBTGGyKBYBIYL4gkgoVinCEaCBaCcYJoIpgvxhpyBoL5YKwgZyKYK+YQcgWCuWB2IVcimC1mExIDgtlgViExIdgR5g8SI4LtYb4gMSPYFuYDSQHB1jBvSEoI9ovJU0SwBcbchmHITMIBM5fdyrKs5jvyNIk2341n13XV+zeSKoYIfP/8a6WGWSLQ13MkFcwvAv092WPHrCHQ6rtWrJgtBNp8+40Ns4dAu+uRWDBHCHS4QrwaY4NAVmv2qzC2CGS9i3I2xgWBnPa1zsK4IpDzTqM2xgeBvPZ+tTC+COS9Gy+NCUGgoPmIFCYUgYInVqEYCQQSmSH6YqQQSGyq64qRRCDRObstRhqBxE8+HGE0EKrVdV0tD9XMl3CopjIpRgwgySIYMGcgXlcdEn7O9wcIAAAAAElFTkSuQmCC"
                   alt="Logo"
                   className="absolute top-0 left-0 w-18 h-18 z-10 justify-center items-center"
                 />

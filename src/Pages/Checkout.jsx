@@ -1,10 +1,11 @@
 import React from "react";
 import CheckoutPage from "../components/Checkout/Checkout";
 
-export default function () {
+
+export default function Checkout () {
   return (
     <>
-      <CheckoutPage />
+      <CheckoutPage/>
     </>
   );
 }

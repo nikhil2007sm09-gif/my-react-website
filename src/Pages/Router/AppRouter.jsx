@@ -20,6 +20,9 @@ import ProductDetail from "../../components/AllProductsPage/ProductDetail";
 import About from "../About";
 import Contact from "../Contact";
 import PrivacyPolicyPage from "../PrivacyPolicy";
+import Checkout from "../Checkout";
+
+
 
 function AppRouter() {
   return (
@@ -27,7 +30,7 @@ function AppRouter() {
       <Route path="/" element={<Home/>} />
       <Route path="/Products" element={<Products />} />
       <Route path="/product/:id" element={<ProductDetail />} />
-      <Route path="/checkoutpage" element={<CheckoutPage />} />
+<Route path="/checkout" element={<Checkout />} />
       <Route path="/Contact" element={<Contact/>} />
       <Route path="/Order" element={<Order/>} />
       <Route path="/About" element={<About />} />
