@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import { Heart, ChevronLeft, Share2 } from "lucide-react";
-import { Link } from "react-router-dom";
 
 export default function ProductDetail() {
   const { id } = useParams();
@@ -872,10 +871,12 @@ export default function ProductDetail() {
                   <Share2 size={18} /> Copy Link
                 </button>
 
-              <Link 
-              to="/checkout"
-                className="block text-center bg-gray-800 text-white py-4.5 text-sm font-bold tracking-widest rounded-lg hover:bg-gray-900 transition uppercase"
-              >Add to Bag</Link>
+                <Link
+                  to="/CheckoutPage"
+                  className="block text-center bg-gray-800 text-white py-4.5 text-sm font-bold tracking-widest rounded-lg hover:bg-gray-900 transition uppercase"
+                >
+                  Add to Bag
+                </Link>
               </div>
             </div>
           </div>
