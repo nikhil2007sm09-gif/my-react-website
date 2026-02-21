@@ -93,8 +93,6 @@ export default function CheckoutPage() {
                     className=" w-20 h-28 sm:w-24 sm:h-32 object-cover"
                   />
 
-
-
                   <div className="flex flex-col justify-between">
                     <p className="text-[12px] sm:text-[13px] font-black uppercase">
                       {product.name}

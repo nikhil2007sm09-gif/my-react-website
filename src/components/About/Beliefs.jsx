@@ -5,6 +5,8 @@ export default function Beliefs() {
       desc: "Premium fabrics, durable stitching, and careful attention to every detail.",
     },
     {
+
+      
       title: "Minimal Design",
       desc: "Clean silhouettes and neutral tones that stay relevant beyond trends.",
     },
@@ -46,7 +48,6 @@ export default function Beliefs() {
                 <p className="text-gray-600 leading-relaxed text-base">
                   {belief.desc}
                 </p>
-
                 <div className="mt-8 h-px w-0 bg-gray-400 group-hover:w-full transition-all duration-500" />
               </div>
             ))}
